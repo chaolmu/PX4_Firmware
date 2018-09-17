@@ -1,0 +1,22 @@
+#!nsh
+#
+# @name Fluegel
+#
+# @type Quadrotor H
+# @class Copter
+#
+# @maintainer Chao Yao <chao.yao@tu-dresden.de>
+#
+# @output MAIN1 Motor front upper
+# @output MAIN2 Motor back left
+# @output MAIN3 Motor front bottom
+# @output MAIN4 Motor back right
+#
+
+sh /etc/init.d/rc.mc_defaults
+
+set MAV_TYPE 2
+
+set MIXER fluegel
+
+set PWM_OUT 1234
