@@ -2,7 +2,7 @@
 #
 # @name Fluegel
 #
-# @type Quadrotor H
+# @type Quadrotor T
 # @class Copter
 #
 # @maintainer Chao Yao <chao.yao@tu-dresden.de>
